@@ -36,3 +36,62 @@ body {
     margin-bottom: 5px;
     /* Reduces space between paragraphs */
 }
+
+.boxes-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.box {
+    background-color: rgb(80, 255, 71);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+    color: black;
+    font-family: monospace;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.github-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.github-link img {
+    width: 60px;
+    height: 60px;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.github-link img:hover {
+    opacity: 0.9;
+    transform: scale(1.1, 1.1);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.diagonal-box {
+    width: 100%;
+    height: 120px;
+    background-color: rgb(80, 255, 71);
+    transform: skewY(-27deg);
+    margin: 40px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    opacity: .9;
+    transition: all 0.5s ease-in-out;
+}
+
+.diagonal-box:hover {
+    height: 300px;
+    transform: skewY(0deg);
+}

@@ -1,3 +1,30 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.header-box {
+    background-color: rgb(80, 255, 71);
+    padding: 20px;
+    border-radius: 5px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    text-align: center;
+}
+
+.header-font {
+    font-family: monospace;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.Paragraph-1 {
+    color: white;
+    font-family: monospace;
+    font-size: 18px;
 }

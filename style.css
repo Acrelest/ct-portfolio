@@ -81,17 +81,17 @@ body {
 }
 
 .diagonal-box {
-    width: 1200px;
+    width: 1400px;
     height: 120px;
     background-color: rgb(80, 255, 71);
-    transform: skewY(-30deg);
+    transform: skewY(-27deg);
     margin: 110px auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     opacity: .7;
     transition: all 1s ease-in-out;
-    border-radius: 80px;
+    border-radius: 30px;
     position: relative;
-    left: -100px;
+    left: 0px;
     top: 0px;
 }
 

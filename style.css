@@ -5,8 +5,11 @@ body {
 
 .header-box {
     background-color: rgb(80, 255, 71);
-    padding: 20px;
-    border-radius: 5px;
+    margin-left: .5%;
+    margin-right: .5%;
+    margin-top: 1%;
+    padding: 30px;
+    border-radius: 30px;
     height: 200px;
     display: flex;
     align-items: center;
@@ -27,4 +30,9 @@ body {
     color: white;
     font-family: monospace;
     font-size: 18px;
+}
+
+.Paragraph-1 p {
+    margin-bottom: 5px;
+    /* Reduces space between paragraphs */
 }

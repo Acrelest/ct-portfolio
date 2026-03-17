@@ -81,7 +81,10 @@ body {
 }
 
 .diagonal-box {
-    width: 1400px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
     height: 120px;
     background-color: rgb(80, 255, 71);
     transform: skewY(-27deg);
@@ -105,4 +108,8 @@ body {
     transform: translateX(-50%) skewY(0deg);
     opacity: 1;
     border-radius: 0px;
+}
+
+.duplicate {
+    margin-top: 5px;
 }

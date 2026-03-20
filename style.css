@@ -135,3 +135,11 @@ body {
 .duplicate {
     margin-top: 100px;
 }
+
+.second-diagonnal-box {
+    transition: all 1s ease-in-out;
+    margin-top: 50px;
+    width: 60%;
+    margin-left: 35%;
+    margin-right: 35%;
+}

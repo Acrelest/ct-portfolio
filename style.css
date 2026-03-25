@@ -10,7 +10,7 @@ body {
     margin-top: 1%;
     padding: 30px;
     border-radius: 30px;
-    height: 200px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,7 +97,7 @@ body {
     width: 100%;
     height: 50px;
     background-color: rgb(80, 255, 71);
-    transform: skewY(-35deg);
+    transform: skewY(-30deg);
     margin: 0px auto;
     opacity: .7;
     transition: all 1s ease-in-out;
@@ -107,11 +107,25 @@ body {
     top: 0px;
 }
 
+.diagonal-box-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 252, 252);
+    font-family: monospace;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .first-diagonal-box {
     transition: all .3s ease-in-out;
-    margin-top: 50px;
-    margin-left: 15%;
-    width: 45%;
+    margin-top: 20px;
+    margin-left: 7%;
+    width: 50%;
 }
 
 .first-diagonal-box:hover {
@@ -125,19 +139,18 @@ body {
     position: relative;
     opacity: 1;
     transform: scale(1.05, 1.05);
-    transform: skewY(-35deg);
+    transform: skewY(-30deg);
 }
 
 .duplicate {
     margin-top: 100px;
 }
 
-.second-diagonnal-box {
+.second-diagonal-box {
     transition: all 1s ease-in-out;
-    margin-top: -200px;
+    margin-top: -150px;
     width: 60%;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 15%;
 }
 
 .third-diagonal-box {

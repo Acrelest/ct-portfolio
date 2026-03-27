@@ -108,7 +108,7 @@ body {
 }
 
 .first-diagonal-box {
-    margin-top: -200px;
+    margin-top: -190px;
     margin-left: 50%;
     width: 20%;
     box-shadow: inset 0 60px rgba(91, 91, 91, 0.5);
@@ -124,6 +124,7 @@ body {
     transition: all .3s ease-in-out;
     position: relative;
     opacity: 1;
+    transform: scale(1.01, 1.01);
 }
 
 .duplicate {
@@ -132,16 +133,51 @@ body {
 
 .second-diagonal-box {
     transition: all 1s ease-in-out;
-    margin-top: -140px;
-    width: 50%;
-    margin-left: 15%;
-    box-shadow: 0 0 30px rgba(38, 161, 0, 0.5);
+    margin-top: -205px;
+    width: 20%;
+    margin-left: 75%;
+    box-shadow: inset 0 60px rgba(91, 91, 91, 0.5);
     border: 4px solid rgb(80, 255, 71);
 }
 
 .third-diagonal-box {
     transition: all .3s ease-in-out;
-    margin-top: 100px;
-    margin-left: 5%;
-    width: 70%;
+    margin-top: 50px;
+    margin-left: 50%;
+    width: 20%;
+    box-shadow: inset 0 60px rgba(91, 91, 91, 0.5);
+    border: 4px solid rgb(80, 255, 71);
+}
+
+.fourth-diagonal-box {
+    transition: all .3s ease-in-out;
+    margin-top: -205px;
+    margin-left: 75%;
+    width: 20%;
+    box-shadow: inset 0 60px rgba(91, 91, 91, 0.5);
+    border: 4px solid rgb(80, 255, 71);
+}
+
+.fifth-diagonal-box {
+    transition: all .3s ease-in-out;
+    margin-top: -215px;
+    margin-left: 1%;
+    width: 20%;
+    box-shadow: inset 0 60px rgba(91, 91, 91, 0.5);
+    border: 4px solid rgb(80, 255, 71);
+}
+
+.sixth-diagonal-box {
+    transition: all .3s ease-in-out;
+    margin-top: -205px;
+    margin-left: 26%;
+    width: 20%;
+    box-shadow: inset 0 60px rgba(91, 91, 91, 0.5);
+    border: 4px solid rgb(80, 255, 71);
+}
+
+
+.background-image {
+    position: fixed;
+    opacity: 0.5;
 }

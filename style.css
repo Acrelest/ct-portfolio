@@ -177,7 +177,12 @@ body {
 }
 
 
-.background-image {
-    position: fixed;
-    opacity: 0.5;
+.box-margin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 30px rgba(38, 161, 0, 0.5);
+    border: 4px solid rgb(80, 255, 71);
+    width: 10%;
+    margin-left: 1%;
 }

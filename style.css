@@ -4,16 +4,21 @@ body {
 }
 
 .header-box {
-    background-color: rgb(80, 255, 71);
+
     margin-left: .5%;
     margin-right: .5%;
     margin-top: 1%;
     padding: 30px;
-    border-radius: 30px;
-    height: 200px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 0 30px rgba(38, 161, 0, 0.5);
+    border: 4px solid rgb(80, 255, 71);
+}
+
+.hello {
+    margin-left: 250px;
 }
 
 .header {
@@ -23,13 +28,19 @@ body {
 .header-font {
     font-family: monospace;
     font-size: 30px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .Paragraph-1 {
     color: white;
     font-family: monospace;
-    font-size: 18px;
+    font-size: 150%;
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    margin-left: 10px;
 }
 
 .Paragraph-1 p {
@@ -68,78 +79,69 @@ body {
     transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
-.lorussoland-link {
-    position: fixed;
-    bottom: 20px;
-    right: 90px;
-    /* Position to the left of the GitHub logo */
-    z-index: 1000;
-    width: 20px;
-    height: 20px;
-}
-
-.lorussoland-link img {
-
-    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-}
-
-.lorussoland-link img:hover {
-    opacity: 0.9;
-    transform: scale(1.1, 1.1);
-    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-}
-
 .diagonal-box {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    height: 50px;
-    background-color: rgb(80, 255, 71);
-    transform: skewY(-35deg);
+    height: 200px;
     margin: 0px auto;
     opacity: .7;
     transition: all 1s ease-in-out;
-    border-radius: 30px;
     position: relative;
     left: 0px;
     top: 0px;
 }
 
+.diagonal-box-text {
+    position: absolute;
+    color: rgb(255, 252, 252);
+    font-family: monospace;
+    padding-top: 0px;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    margin-top: -15px;
+}
+
 .first-diagonal-box {
-    transition: all 1s ease-in-out;
-    margin-top: 100px;
-    width: 60%;
-    margin-left: 5%;
+    margin-top: -200px;
+    margin-left: 50%;
+    width: 20%;
+    box-shadow: inset 0 60px rgba(91, 91, 91, 0.5);
+    border: 4px solid rgb(80, 255, 71);
 }
 
 .first-diagonal-box:hover {
-    transition: all 1s ease-in-out;
+    transition: all .3s ease-in-out;
     position: relative;
-    width: 100%;
-    transform: translateX(-5%) skewY(0deg);
 }
 
 .diagonal-box:hover {
-    transition: all 1s ease-in-out;
+    transition: all .3s ease-in-out;
     position: relative;
-    left: 50%;
-    top: -622px;
-    width: 100%;
-    height: 900px;
-    transform: translateX(-50%) skewY(0deg);
     opacity: 1;
-    border-radius: 0px;
 }
 
 .duplicate {
     margin-top: 100px;
 }
 
-.second-diagonnal-box {
+.second-diagonal-box {
     transition: all 1s ease-in-out;
-    margin-top: 0px;
-    width: 60%;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-top: -140px;
+    width: 50%;
+    margin-left: 15%;
+    box-shadow: 0 0 30px rgba(38, 161, 0, 0.5);
+    border: 4px solid rgb(80, 255, 71);
+}
+
+.third-diagonal-box {
+    transition: all .3s ease-in-out;
+    margin-top: 100px;
+    margin-left: 5%;
+    width: 70%;
 }

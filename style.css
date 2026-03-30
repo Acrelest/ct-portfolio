@@ -31,6 +31,18 @@ body {
     color: rgb(255, 255, 255);
 }
 
+.Paragraph-2 {
+    color: white;
+    font-family: monospace;
+    font-size: 150%;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    margin-left: 10px;
+}
+
 .Paragraph-1 {
     color: white;
     font-family: monospace;
@@ -185,4 +197,26 @@ body {
     width: 10%;
     margin-left: 1%;
     height: 100px;
+}
+
+.back-to-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 30px rgba(38, 161, 0, 0.5);
+    border: 4px solid rgb(80, 255, 71);
+    width: 290px;
+    height: 90px;
+    margin-top: 20px;
+}
+
+.back-to-home-font {
+    text-decoration-line: none;
+    font-family: monospace;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration-line: none;
 }
